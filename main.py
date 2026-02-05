@@ -34,7 +34,6 @@ def main():
                 return
         
         updatable.update(dt)
-        player.cooldown -= dt
 
         for ast in asteroids:
             if ast.collides_with(player):
